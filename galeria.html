@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeria de Fotos 📸 | Mundo Pequeno</title>
+<meta name="description" content="Galeria com fotos fofas e emocionantes de bebês e crianças em momentos de brincadeira, alimentação e carinho.">
+<link rel="icon" href="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f308.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="logo"><span class="emoji-logo">🌈</span> Mundo <span>Pequeno</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="index.html#cuidados">Cuidados</a></li>
+      <li><a href="index.html#alimentacao">Alimentação</a></li>
+      <li><a href="index.html#brincadeiras">Brincadeiras</a></li>
+      <li><a href="galeria.html" class="active">Galeria</a></li>
+      <li><a href="desenhos.html">Desenhos</a></li>
+      <li><a href="jogos.html">Jogos</a></li>
+      <li><a href="index.html#dicas">Dicas</a></li>
+      <li class="nav-cta"><a href="index.html#newsletter" class="btn btn-primary btn-sm">Assine Grátis</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Início</a> / Galeria</div>
+    <h1>📸 Galeria de Fotos</h1>
+    <p>Momentos puros, espontâneos e cheios de amor. Clique em qualquer foto para ampliar!</p>
+  </div>
+</section>
+
+<section style="padding-top:20px;">
+  <div class="container">
+    <div class="gallery-filters">
+      <button class="active" data-filter="all">Todas</button>
+      <button data-filter="bebes">Bebês</button>
+      <button data-filter="brincando">Brincando</button>
+      <button data-filter="alimentacao">Alimentação</button>
+      <button data-filter="familia">Em Família</button>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid">
+      <div class="gallery-item big" data-cat="bebes"><img src="https://sspark.genspark.ai/cfimages?u1=ndhddeLZFWGT2QNLQLzmzCzusl1w2wdhWSH6RtxrP0ZmwlwBD2rYt%2BAk1T1cfhvJv9oaSDErAEjLbPTglNGLpMYn3vOj9%2BGTQF0q&u2=%2FpJAjtqTDEt%2Bv%2FnV&width=2560" alt="Bebê sorrindo em retrato"></div>
+      <div class="gallery-item" data-cat="bebes"><img src="https://sspark.genspark.ai/cfimages?u1=wyLe3C%2FAatpw%2FO4%2FJGMvjrgKcWoxJjUubyipTF%2FmRkcZkCUZC0ElCqLG8GH1RtX7pW635uxzYXK0th3lJWpb%2FtLRLevfHsQp%2B%2FsfWTzB47OzOsWj92z8WtKt3IEaE1g%3D&u2=%2BPU1qNR4vR9eNOVG&width=2560" alt="Bebê sorrindo com sol no rosto"></div>
+      <div class="gallery-item" data-cat="bebes"><img src="https://sspark.genspark.ai/cfimages?u1=8L2IFlPkdaG%2FIW3AeMYnHKb4eAwyjwd8dw22cgdGkTfwISY3p1%2FhVpr8Nta03a7AEeLAphwVBm%2BUW2LVDxcgH6xd5I%2FwoS0oSSRqjXibA%2Bd6pWyJEW%2BmxaOGnXrDiw%3D%3D&u2=kWhI%2BEYVxFTC4DdW&width=2560" alt="Bebê rindo muito, fofura pura"></div>
+      <div class="gallery-item" data-cat="bebes"><img src="https://sspark.genspark.ai/cfimages?u1=nSkT0t7nMFKpLuXsFscAIu6YBdMsJHf5hc7i%2FyCXRW3bRyOsYB9TfGbBkV8WTERxIGZbdeXm1TzRTCR2XvfxIrx3dXwN8hUG66l93VvWFYq0RHcwTFc7QH1au1a5OkRutzT%2FSqoSWOZs%2BxHULO1X8UY3XrJZMIPidQQfKF8nFTiYUZowz%2Fy4MwzSMY8TH6r6rdNrrvPdiO2BBJWKzJvbkiKhiYYpR4dZeQpNS1c0Pe%2BMOnPsiVyqrP2ezf313G8qig6XODM7vVbfgKGphIifDA%3D%3D&u2=FmXquI4T0TN6zmR3&width=2560" alt="Bebê fofo em close"></div>
+      <div class="gallery-item" data-cat="brincando"><img src="https://sspark.genspark.ai/cfimages?u1=59ISI4aFKnPtWzOcBTF0I5ml5RJXpm5B3AfBr2Erm9TeOmwFgueIEve2jPlzuM46gnMAi53AapqGLBo0E2CuCd7VEn5RWjH8NbwACZI96RKM98XP%2F1CQaHisSA7GuGvZbXMqs8y6SAXkcRGLWAJMpjZWzwGOJZZxLCQJP1g0g6ZC9rir9vIqbgoHP2moUMwQ%2FQFh993Lb4isltNryDFymv7yGeEcs%2F4JXQm5btyzPd5uQrDFDeWNV3%2BuuDfu08QDfPqDxPw8FwPi%2B%2BfpMYrJUshYjNnGT49L5piJLTrHBk%2FGUFnyHLK0v5kTRoIH1S5oiEUplZV1FyTTrsb8HQ17k%2ByeW4ojQhJ32U48ofLu4xlV9q1k48qzZprQzNOdkIWRteJuSw%3D%3D&u2=sn4Roj9m0N7NNnrb&width=2560" alt="Criança correndo entre flores"></div>
+      <div class="gallery-item big" data-cat="brincando"><img src="https://sspark.genspark.ai/cfimages?u1=fBDyU491KCCqEEFu7%2FhmPNwWjkM%2F2XoJVQUx02vh%2FolGIvzcqIdsznbCpgeQtoPpkAKB2pBQ6ruElIrLAnjWRtsxDEQAoI4FyH08cp%2B3tQS%2FheKLW9XnB6l4hBnWvF8aiOzVW2SUGP3YvSuy%2FoOx&u2=zw8rZxPJIC1Qbc1S&width=2560" alt="Menina correndo alegre no parque"></div>
+      <div class="gallery-item" data-cat="brincando"><img src="https://sspark.genspark.ai/cfimages?u1=WpBDYF%2FdieONYsk8MtbFP0OM5wnWMpUHRu0hVZ8k0tvDK6dPFJK%2Fk%2FcP%2FlqayY1EDx5Sct%2FInZC2RCJblWyV0LVW%2FWLBJar6uX8mu8EFAk%2BySzVScyhiroKMCAeMaYhsCofOaCBijscZTL8njc3Mr6gNJtBwJ7ZF5A%3D%3D&u2=CWq1AVDPsnj2CJkj&width=2560" alt="Crianças brincando em playground colorido"></div>
+      <div class="gallery-item" data-cat="brincando"><img src="https://sspark.genspark.ai/cfimages?u1=sA341pG9ekd1d1fHENVSpPhQZU5abH2H5noMOxdjfEWt6ttK6TJ8%2BB8UQWgXJcWCDMvwCS1d%2BQOWKHdgnYw2zYtiqh84KALpztPcodD2eGMD5tq%2B8yEoWZ5Bf%2FcmQw%3D%3D&u2=MdXFbS8UONEUH8Y7&width=2560" alt="Família brincando junto em noite de jogos"></div>
+      <div class="gallery-item" data-cat="alimentacao"><img src="https://sspark.genspark.ai/cfimages?u1=ZKTM0e5CzXag6FHr%2B5U7Ea8sr9tWd%2B0Kv%2F19orjW7xzfxcWVRiq2DzjCu3D8LRmArNO6lWsaVP60xgjQvDSffSvbUJLDsTP%2BtN%2BZA%2FeQfewbdvDUlJJKfoTht6je3oleZ8IU5WjwO%2Fw3ft8j14mB9d9UUqb87VC8nVnbDwa9nardIBvo2hw%3D&u2=2hmnY5ufBSFMyHn7&width=2560" alt="Criança comendo salada colorida"></div>
+      <div class="gallery-item big" data-cat="alimentacao"><img src="https://sspark.genspark.ai/cfimages?u1=9FxZXdM4X4CzOMcz3gTHTyas1kIEHZJN12BxcW1SlRtGMaehAtfrirt5HQFbJVjVk7xa3nz%2FELOdaUDOUrVTUymYnw40bvQy07XpS7xs2qSfy9FskDpMtvTRBbnT1rObOOAXxnR7ljIhXD0OyQ9QrkVKyqpJoX42kvm%2BRxe6vRT1zEdbNLU5r9oHgi6O0zL9KoLrXtHz2ph8XJ6kkJwSRuVQbZRuvFruAl19jXsMpg9X%2FYKhVhE%2B2MFSSIdjP56OTeE%3D&u2=9HQf231Tcwx0kzrl&width=2560" alt="Criança feliz comendo morango"></div>
+      <div class="gallery-item" data-cat="alimentacao"><img src="https://sspark.genspark.ai/cfimages?u1=86lqR08vA5sWLrkDV4EsVoRUqktRRds6ESJ%2B%2FUfinsac5YedhL5WdPklPvlC%2BTSqW67JJ3TlSVY0QU8QCVzZT%2BdVcO3mgRHmUv05ErMwGKTNpexl6Dhu8gX8v1TBcQ%3D%3D&u2=K5OYk6gUGHNbGBi9&width=2560" alt="Bebê em cadeirão comendo frutas"></div>
+      <div class="gallery-item" data-cat="familia"><img src="https://sspark.genspark.ai/cfimages?u1=b5iQfPULZfsXbhUaqRaP7CISdtkT1hkvnxKXjVybNKvUUQCOmRvNQbS2TdpFTGiKDgcts0X3qG3jQYtk0KEnct4fQ4gmR3nFEQ7bH8Pm7woQyl6fAvV3B1P08Kqv9jXmOQ%3D%3D&u2=fCo6V5jdaEC6CUcN&width=2560" alt="Família rindo em piquenique no parque"></div>
+      <div class="gallery-item" data-cat="familia"><img src="https://sspark.genspark.ai/cfimages?u1=qlp3Pk4jx%2B5QQri7shN4EqS%2FPiMdzdB4tIMeLIs3VCson8bGPi%2Fb9UwNQFnewcjxgat%2FpxZOLktwCRA8G7QgNT6MlomLyUI%2BeFuY3Xu4NK%2Bx7aiCJkZbJnTIt58I1d3Y3uhuqQ5uUB0Ntk3Mir3Uiv8SeDgTSs64TgS2gE3vH9TVl9up1efvt8S1F2R2ppOIwqOaVCzJ%2Fg%3D%3D&u2=henoQmkNM05E8mzx&width=2560" alt="Crianças sorrindo felizes ao ar livre"></div>
+      <div class="gallery-item big" data-cat="familia"><img src="https://sspark.genspark.ai/cfimages?u1=1blTArJ5Eu%2FGSH2etiKLRTBlxFUwZMqY1DZ2yItQqu2k89i%2B6gPXnyP3QJmQzXr42RCbxvhw4gGQcNsXjRLyuqfWVWNAkedi3a8heZniO7xo5TeQzhzOdxDymhdcimO0EmA%2FcCiGvslssW6CGYHBF%2BKzyv4NTE5cC8n2Kh%2FUtRLn7oo%2Bc51z5l%2Fv89xw7Y%2Fu&u2=9agaMQzuVgnDVISK&width=2560" alt="Pai abraçando filhos em piquenique"></div>
+      <div class="gallery-item" data-cat="brincando"><img src="https://sspark.genspark.ai/cfimages?u1=1Fto99xITCwhFB8%2B5HtOlHPYJwrbszl1hx77c2Ob0JB8L7FdaOWtxvMlHomz2e%2BvvKUjw2hKQdYCW74EpMnTlNPe8OHSgJ1PrK8iMXfpBzcGsKsQuvMxYYYvxVoT8x0VgmHBMVJ2POoCBm1kFr8yKlo%2Ba6c3braZTQ%3D%3D&u2=MU2CLRSvXlZx8ZyN&width=2560" alt="Criança soltando pipa no parque"></div>
+      <div class="gallery-item" data-cat="bebes"><img src="https://sspark.genspark.ai/cfimages?u1=GZcavKBhvGjLHQvYLj1cSE5FK9rAeLmlykykEyldJu1PBx9g099fC5qmTVgqDJdPLSYPnDcXmKaKosiJGXWiotTIvlpgbD4%2B6Oy7rMkeWN9xpmXHD%2FDef%2FgY&u2=VCSDzIK2xeZBY9p%2B&width=2560" alt="Bebê engatinhando na grama"></div>
+      <div class="gallery-item" data-cat="bebes"><img src="https://sspark.genspark.ai/cfimages?u1=GqDWG23xCzHfJBTRkZeLnIqSGfOPdhkVPpeD1703GwXiyoiWSaqoHYmYqNs%2BW8WijkrIZ8GRK2JBOWyUqSAaiVXEZqMDWj%2Bqi0j6NTELcP6hO2F2MH6U8Drpd6QCR8E%3D&u2=B2mxKicVVddRcngL&width=2560" alt="Pezinhos de bebê recém-nascido em manta"></div>
+      <div class="gallery-item" data-cat="brincando"><img src="https://sspark.genspark.ai/cfimages?u1=JRXGyfvhdbgeaXRARNCjpbID2xr7aeG57Gp6lYn4SQ9RtnUomC1nlRsrfz27rqwLVw6C%2BJHiDoCyhcS2B6qj2FYBRFA6bboLx%2FHUktshMMp0UfvQ9N5KGfmaBVWJdTQLR0xA3OiJosE2VkbWHJU5UvHXVNVX%2Fh3C1g%3D%3D&u2=7bhvJANsAh4cPqdR&width=2560" alt="Crianças brincando de esconde-esconde"></div>
+      <div class="gallery-item" data-cat="alimentacao"><img src="https://sspark.genspark.ai/cfimages?u1=9pLEvFNa9xWrN87bJbIpUvJwy0%2Fwc01FcW7TuTxe%2Bq%2FrZBkfGl8IKHihKzmP4QbChPN1v1X3Q%2B1ZtUiJ6WsX4CZJ69P3Bwgv0TuNM6FZJ5T%2FiUAPADzg8GNT&u2=Cdj5ZmFF7YyDmeJ1&width=2560" alt="Criança dando primeiros passos no jardim"></div>
+      <div class="gallery-item" data-cat="familia"><img src="https://sspark.genspark.ai/cfimages?u1=zXG65B2bnwlD1%2BCpa%2B%2FXchagHtrpxbhkB6bfVhUogb3kWrZtoYhfnTfnNH2VXRkskCCixY3mlTpaSpFLzRAjUgS%2FIfjd7hpIadNkMlV7AwMNJoVLsRFTI1%2B7CM%2BKAEPv4diLXzgmqp71tEWxcI%2BE%2B1qS8HY4qQ88Vg%3D%3D&u2=ygIACoiZtZZTprJc&width=2560" alt="Irmãos brincando e sorrindo juntos"></div>
+      <div class="gallery-item" data-cat="brincando"><img src="https://sspark.genspark.ai/cfimages?u1=aX8Zofcm4DAO5x5znqSIduQWsm4Ck3ki2Zjb9fmflA6MuWwp1IG4y86abOy7NKKEnNt5qRHFZpm5s2qRPjF4mp6ahHuhcM6dtTK7%2BV%2F6FjDUKlWMLorTW7UleexSlNXi75QVvOgNCPNfBzIp8a8EzOj3gIrboZIKhKQBGQY35HjudR0rTxTrd29me5umbTcs8AMf4z2uUwr0DuTX4cdzaoaNgctVLEkuh3kT&u2=xWXws6ZHVBcLA3tJ&width=2560" alt="Crianças pintando com tinta em aula de arte"></div>
+      <div class="gallery-item" data-cat="familia"><img src="https://sspark.genspark.ai/cfimages?u1=igejuYGntCnz6JPLpueFddcODlbTXeVL2FQJwPCcA29CObwJ8QZl9hnUXtAj6GNLW%2Fy1zQ2m9IWn92dsYTI9LtqUaqO7%2FhGy1QfveaH11iJgdiuVbIkm67%2Bo10qiSqG0gv%2FduYlUXFkFAWNYIwOZwx4qbdBjvM%2FG&u2=Y0ME9b8frFHMOvCb&width=2560" alt="Amigas brincando juntas felizes"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev"><i class="fa-solid fa-chevron-left"></i></button>
+  <img src="" alt="Imagem ampliada" id="lightboxImg">
+  <button class="lightbox-nav lightbox-next" id="lightboxNext"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">🌈 Mundo <span>Pequeno</span></div>
+        <p>Um espaço feito com carinho para acompanhar cada etapa da infância: cuidados, alimentação, brincadeiras e muita diversão.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html#cuidados">Cuidados</a></li>
+          <li><a href="index.html#alimentacao">Alimentação</a></li>
+          <li><a href="index.html#brincadeiras">Brincadeiras</a></li>
+          <li><a href="index.html#dicas">Dicas</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Diversão</h4>
+        <ul>
+          <li><a href="galeria.html">Galeria de Fotos</a></li>
+          <li><a href="desenhos.html">Desenhos p/ Colorir</a></li>
+          <li><a href="jogos.html">Jogos Online</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-envelope"></i> contato@mundopequeno.com</a></li>
+          <li><a href="#"><i class="fa-solid fa-phone"></i> (11) 99999-0000</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Mundo Pequeno. Feito com <i class="fa-solid fa-heart" style="color:#FF8FB1;"></i> para famílias.</p></div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop"><i class="fa-solid fa-arrow-up"></i></button>
+<script src="js/main.js"></script>
+</body>
+</html>
